@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+     initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container_index">
+
+      <div
+      
+      class="menu_container">
+        <div
+        id="first_line_of_x"
+        class="menu_children"></div>
+        <div id="second_line_of_hamburguer" class="menu_children"></div>
+        <div id="second_line_of_x"
+         class="menu_children"></div>
+      </div>
+      <!-- HAMBURGUER MENU ENDS -->
+      <div 
+      class="layer_of_menu"></div>
+
+
+      <div class="shapes_container">
+        <!-- CHILDREN #1 -->
+
+        <div
+          class="shapes_children one"
+          onmouseover="showEffect()"
+          onmouseout="hideEffect()"
+        >
+          <div id="content1">
+            <img src="./search-icon.png" alt="search-icon" />
+            <p>#AC53FF</p>
+          </div>
+        </div>
+        <!-- CHILDREN #2 -->
+
+        <div
+          onmouseover="showContent()"
+          onmouseout="hideContent()"
+          class="shapes_children two"
+        >
+          <div id="content2">
+              <img src="./search-icon.png" alt="search-icon" />
+            <p>#360074</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="./index.js"></script>
+  </body>
+</html>
