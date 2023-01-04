@@ -26,35 +26,49 @@
       </div>
       <!-- HAMBURGUER MENU ENDS -->
       <div 
-      class="layer_of_menu"></div>
-
-
-      <div class="shapes_container">
-        <!-- CHILDREN #1 -->
-
-        <div
-          class="shapes_children one"
-          onmouseover="showEffect()"
-          onmouseout="hideEffect()"
-        >
-          <div id="content1">
-            <img src="./search-icon.png" alt="search-icon" />
-            <p>#AC53FF</p>
-          </div>
-        </div>
-        <!-- CHILDREN #2 -->
-
-        <div
-          onmouseover="showContent()"
-          onmouseout="hideContent()"
-          class="shapes_children two"
-        >
-          <div id="content2">
-              <img src="./search-icon.png" alt="search-icon" />
-            <p>#360074</p>
-          </div>
-        </div>
+      class="layer_of_menu">
+      <div>
+        <a href="#">DESIGN</a> <br>
       </div>
+    <div>
+      <a href="#">COLOR</a>
+    </div>
+
+    </div>
+<!-- LAYER OF MENU  ENDS -->
+
+<div class="shapes_container">
+  <div class="fonts_title">
+    <h2>COLORS</h2>
+  </div>
+
+  <div class="shapes_children_container">
+  
+  <!-- CHILDREN #1 -->
+  <div class="shapes" id="content1"
+  onmouseover="showContentFirstShape()"
+  onmouseout="hideContentFirstShape()"
+  >
+  <div id="content_of_shape_one">
+    <img src="./search-icon.png" alt="icon"> <br>
+    #AC53FF
+  </div>
+</div>
+  <!-- CHILDREN #2 -->
+        <div class="shapes" id="content2"
+        onmouseover="showContentSecondShape()"
+        onmouseout="hideContentSecondShape()"
+        >
+      <div id="content_of_shape_two">
+        <img src="./search-icon.png" alt="icon"> <br>
+        #AC53FF
+      </div>
+      </div>
+     
+        </div>
+   
+      </div>
+      
     </div>
 <script src="./index.js"></script>
   </body>
